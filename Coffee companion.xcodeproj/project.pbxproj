@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52D92F52BABE49C00E5CBBB /* Coffee_companionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */; };
+		F52D92F72BABE49C00E5CBBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F62BABE49C00E5CBBB /* ContentView.swift */; };
+		F52D92F92BABE49C00E5CBBB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F82BABE49C00E5CBBB /* Item.swift */; };
+		F52D92FB2BABE49E00E5CBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */; };
+		F52D92FE2BABE49E00E5CBBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52D92FD2BABE49E00E5CBBB /* Preview Assets.xcassets */; };
+		F52D930A2BABE49E00E5CBBB /* Coffee_companionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93092BABE49E00E5CBBB /* Coffee_companionTests.swift */; };
+		F52D93142BABE49E00E5CBBB /* Coffee_companionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93132BABE49E00E5CBBB /* Coffee_companionUITests.swift */; };
+		F52D93162BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52D93062BABE49E00E5CBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52D92E92BABE49C00E5CBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52D92F02BABE49C00E5CBBB;
+			remoteInfo = "Coffee companion";
+		};
+		F52D93102BABE49E00E5CBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52D92E92BABE49C00E5CBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52D92F02BABE49C00E5CBBB;
+			remoteInfo = "Coffee companion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52D92F12BABE49C00E5CBBB /* Coffee companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionApp.swift; sourceTree = "<group>"; };
+		F52D92F62BABE49C00E5CBBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F52D92F82BABE49C00E5CBBB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52D92FD2BABE49E00E5CBBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F52D92FF2BABE49E00E5CBBB /* Coffee_companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee_companion.entitlements; sourceTree = "<group>"; };
+		F52D93002BABE49E00E5CBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52D93052BABE49E00E5CBBB /* Coffee companionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee companionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D93092BABE49E00E5CBBB /* Coffee_companionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionTests.swift; sourceTree = "<group>"; };
+		F52D930F2BABE49E00E5CBBB /* Coffee companionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee companionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D93132BABE49E00E5CBBB /* Coffee_companionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionUITests.swift; sourceTree = "<group>"; };
+		F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52D92EE2BABE49C00E5CBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D93022BABE49E00E5CBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D930C2BABE49E00E5CBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52D92E82BABE49C00E5CBBB = {
+			isa = PBXGroup;
+			children = (
+				F52D92F32BABE49C00E5CBBB /* Coffee companion */,
+				F52D93082BABE49E00E5CBBB /* Coffee companionTests */,
+				F52D93122BABE49E00E5CBBB /* Coffee companionUITests */,
+				F52D92F22BABE49C00E5CBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52D92F22BABE49C00E5CBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52D92F12BABE49C00E5CBBB /* Coffee companion.app */,
+				F52D93052BABE49E00E5CBBB /* Coffee companionTests.xctest */,
+				F52D930F2BABE49E00E5CBBB /* Coffee companionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52D92F32BABE49C00E5CBBB /* Coffee companion */ = {
+			isa = PBXGroup;
+			children = (
+				F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */,
+				F52D92F62BABE49C00E5CBBB /* ContentView.swift */,
+				F52D92F82BABE49C00E5CBBB /* Item.swift */,
+				F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */,
+				F52D92FF2BABE49E00E5CBBB /* Coffee_companion.entitlements */,
+				F52D93002BABE49E00E5CBBB /* Info.plist */,
+				F52D92FC2BABE49E00E5CBBB /* Preview Content */,
+			);
+			path = "Coffee companion";
+			sourceTree = "<group>";
+		};
+		F52D92FC2BABE49E00E5CBBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F52D92FD2BABE49E00E5CBBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F52D93082BABE49E00E5CBBB /* Coffee companionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52D93092BABE49E00E5CBBB /* Coffee_companionTests.swift */,
+			);
+			path = "Coffee companionTests";
+			sourceTree = "<group>";
+		};
+		F52D93122BABE49E00E5CBBB /* Coffee companionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52D93132BABE49E00E5CBBB /* Coffee_companionUITests.swift */,
+				F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */,
+			);
+			path = "Coffee companionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52D92F02BABE49C00E5CBBB /* Coffee companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D93192BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companion" */;
+			buildPhases = (
+				F52D92ED2BABE49C00E5CBBB /* Sources */,
+				F52D92EE2BABE49C00E5CBBB /* Frameworks */,
+				F52D92EF2BABE49C00E5CBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee companion";
+			productName = "Coffee companion";
+			productReference = F52D92F12BABE49C00E5CBBB /* Coffee companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52D93042BABE49E00E5CBBB /* Coffee companionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D931C2BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companionTests" */;
+			buildPhases = (
+				F52D93012BABE49E00E5CBBB /* Sources */,
+				F52D93022BABE49E00E5CBBB /* Frameworks */,
+				F52D93032BABE49E00E5CBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52D93072BABE49E00E5CBBB /* PBXTargetDependency */,
+			);
+			name = "Coffee companionTests";
+			productName = "Coffee companionTests";
+			productReference = F52D93052BABE49E00E5CBBB /* Coffee companionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F52D930E2BABE49E00E5CBBB /* Coffee companionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D931F2BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companionUITests" */;
+			buildPhases = (
+				F52D930B2BABE49E00E5CBBB /* Sources */,
+				F52D930C2BABE49E00E5CBBB /* Frameworks */,
+				F52D930D2BABE49E00E5CBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52D93112BABE49E00E5CBBB /* PBXTargetDependency */,
+			);
+			name = "Coffee companionUITests";
+			productName = "Coffee companionUITests";
+			productReference = F52D930F2BABE49E00E5CBBB /* Coffee companionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52D92E92BABE49C00E5CBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F52D92F02BABE49C00E5CBBB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F52D93042BABE49E00E5CBBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F52D92F02BABE49C00E5CBBB;
+					};
+					F52D930E2BABE49E00E5CBBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F52D92F02BABE49C00E5CBBB;
+					};
+				};
+			};
+			buildConfigurationList = F52D92EC2BABE49C00E5CBBB /* Build configuration list for PBXProject "Coffee companion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52D92E82BABE49C00E5CBBB;
+			productRefGroup = F52D92F22BABE49C00E5CBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52D92F02BABE49C00E5CBBB /* Coffee companion */,
+				F52D93042BABE49E00E5CBBB /* Coffee companionTests */,
+				F52D930E2BABE49E00E5CBBB /* Coffee companionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52D92EF2BABE49C00E5CBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D92FE2BABE49E00E5CBBB /* Preview Assets.xcassets in Resources */,
+				F52D92FB2BABE49E00E5CBBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D93032BABE49E00E5CBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D930D2BABE49E00E5CBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52D92ED2BABE49C00E5CBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D92F72BABE49C00E5CBBB /* ContentView.swift in Sources */,
+				F52D92F92BABE49C00E5CBBB /* Item.swift in Sources */,
+				F52D92F52BABE49C00E5CBBB /* Coffee_companionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D93012BABE49E00E5CBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D930A2BABE49E00E5CBBB /* Coffee_companionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D930B2BABE49E00E5CBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D93142BABE49E00E5CBBB /* Coffee_companionUITests.swift in Sources */,
+				F52D93162BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52D93072BABE49E00E5CBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52D92F02BABE49C00E5CBBB /* Coffee companion */;
+			targetProxy = F52D93062BABE49E00E5CBBB /* PBXContainerItemProxy */;
+		};
+		F52D93112BABE49E00E5CBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52D92F02BABE49C00E5CBBB /* Coffee companion */;
+			targetProxy = F52D93102BABE49E00E5CBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F52D93172BABE49E00E5CBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F52D93182BABE49E00E5CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52D931A2BABE49E00E5CBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Coffee companion/Coffee_companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee companion/Preview Content\"";
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coffee companion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52D931B2BABE49E00E5CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Coffee companion/Coffee_companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee companion/Preview Content\"";
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coffee companion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F52D931D2BABE49E00E5CBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee companion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee companion";
+			};
+			name = Debug;
+		};
+		F52D931E2BABE49E00E5CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee companion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee companion";
+			};
+			name = Release;
+		};
+		F52D93202BABE49E00E5CBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coffee companion";
+			};
+			name = Debug;
+		};
+		F52D93212BABE49E00E5CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65A8C32HWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.walid.ali-sahraoui.Coffee-companionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coffee companion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52D92EC2BABE49C00E5CBBB /* Build configuration list for PBXProject "Coffee companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D93172BABE49E00E5CBBB /* Debug */,
+				F52D93182BABE49E00E5CBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D93192BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D931A2BABE49E00E5CBBB /* Debug */,
+				F52D931B2BABE49E00E5CBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D931C2BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D931D2BABE49E00E5CBBB /* Debug */,
+				F52D931E2BABE49E00E5CBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D931F2BABE49E00E5CBBB /* Build configuration list for PBXNativeTarget "Coffee companionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D93202BABE49E00E5CBBB /* Debug */,
+				F52D93212BABE49E00E5CBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52D92E92BABE49C00E5CBBB /* Project object */;
+}
