@@ -12,8 +12,13 @@ import SwiftData
 struct Coffee_companionApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            CoffeeBeans.self,
+            Brew.self,
+            Folder.self,
+            Grinder.self,
+            Brewer.self
         ])
+
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {

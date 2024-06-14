@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		F52D92F52BABE49C00E5CBBB /* Coffee_companionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */; };
 		F52D92F72BABE49C00E5CBBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F62BABE49C00E5CBBB /* ContentView.swift */; };
-		F52D92F92BABE49C00E5CBBB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D92F82BABE49C00E5CBBB /* Item.swift */; };
 		F52D92FB2BABE49E00E5CBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */; };
 		F52D92FE2BABE49E00E5CBBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52D92FD2BABE49E00E5CBBB /* Preview Assets.xcassets */; };
 		F52D930A2BABE49E00E5CBBB /* Coffee_companionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93092BABE49E00E5CBBB /* Coffee_companionTests.swift */; };
 		F52D93142BABE49E00E5CBBB /* Coffee_companionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93132BABE49E00E5CBBB /* Coffee_companionUITests.swift */; };
 		F52D93162BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */; };
+		F52D93242BABE4FC00E5CBBB /* CoffeeBeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93232BABE4FC00E5CBBB /* CoffeeBeans.swift */; };
+		F52D93272BACF9F400E5CBBB /* ProcessingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93262BACF9F400E5CBBB /* ProcessingMethod.swift */; };
+		F52D93292BACFA1300E5CBBB /* CoffeeProducingCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93282BACFA1300E5CBBB /* CoffeeProducingCountry.swift */; };
+		F52D932B2BACFA8600E5CBBB /* RoastLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D932A2BACFA8600E5CBBB /* RoastLevel.swift */; };
+		F52D932D2BACFAC500E5CBBB /* AltitudeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D932C2BACFAC500E5CBBB /* AltitudeRange.swift */; };
+		F52D93312BAD042E00E5CBBB /* FlavorCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93302BAD042E00E5CBBB /* FlavorCategory.swift */; };
+		F52D93352BAD507B00E5CBBB /* CoffeeProductingRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93342BAD507B00E5CBBB /* CoffeeProductingRegion.swift */; };
+		F52D93372BAE2E5B00E5CBBB /* Grinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93362BAE2E5B00E5CBBB /* Grinder.swift */; };
+		F52D93392BAE2EAA00E5CBBB /* GrinderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93382BAE2EAA00E5CBBB /* GrinderType.swift */; };
+		F52D933B2BAE2F8500E5CBBB /* Brewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D933A2BAE2F8500E5CBBB /* Brewer.swift */; };
+		F52D933D2BAE58F800E5CBBB /* CoffeeBrewerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D933C2BAE58F800E5CBBB /* CoffeeBrewerType.swift */; };
+		F52D933F2BAE59B300E5CBBB /* Brew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D933E2BAE59B300E5CBBB /* Brew.swift */; };
+		F52D93412BAFD79900E5CBBB /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93402BAFD79900E5CBBB /* Step.swift */; };
+		F52D93452BAFD93200E5CBBB /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D93442BAFD93200E5CBBB /* Folder.swift */; };
+		F52D934D2BB0F33700E5CBBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D934C2BB0F33700E5CBBB /* HomeView.swift */; };
+		F5E74B7C2BE7DE8300A27285 /* GroupBoxStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E74B7B2BE7DE8300A27285 /* GroupBoxStyles.swift */; };
+		F5E74B802BE81A5400A27285 /* CreateBrewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E74B7F2BE81A5400A27285 /* CreateBrewForm.swift */; };
+		F5E74B822BE81CE300A27285 /* CreateBrewerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E74B812BE81CE300A27285 /* CreateBrewerForm.swift */; };
+		F5E74B842BE8B44900A27285 /* CreateGrinderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E74B832BE8B44900A27285 /* CreateGrinderForm.swift */; };
+		F5E74B862BE8B76000A27285 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E74B852BE8B76000A27285 /* LargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,6 @@
 		F52D92F12BABE49C00E5CBBB /* Coffee companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionApp.swift; sourceTree = "<group>"; };
 		F52D92F62BABE49C00E5CBBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F52D92F82BABE49C00E5CBBB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F52D92FD2BABE49E00E5CBBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F52D92FF2BABE49E00E5CBBB /* Coffee_companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee_companion.entitlements; sourceTree = "<group>"; };
@@ -48,6 +66,26 @@
 		F52D930F2BABE49E00E5CBBB /* Coffee companionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee companionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52D93132BABE49E00E5CBBB /* Coffee_companionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionUITests.swift; sourceTree = "<group>"; };
 		F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_companionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F52D93232BABE4FC00E5CBBB /* CoffeeBeans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeans.swift; sourceTree = "<group>"; };
+		F52D93262BACF9F400E5CBBB /* ProcessingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingMethod.swift; sourceTree = "<group>"; };
+		F52D93282BACFA1300E5CBBB /* CoffeeProducingCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeProducingCountry.swift; sourceTree = "<group>"; };
+		F52D932A2BACFA8600E5CBBB /* RoastLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoastLevel.swift; sourceTree = "<group>"; };
+		F52D932C2BACFAC500E5CBBB /* AltitudeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeRange.swift; sourceTree = "<group>"; };
+		F52D93302BAD042E00E5CBBB /* FlavorCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorCategory.swift; sourceTree = "<group>"; };
+		F52D93342BAD507B00E5CBBB /* CoffeeProductingRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeProductingRegion.swift; sourceTree = "<group>"; };
+		F52D93362BAE2E5B00E5CBBB /* Grinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grinder.swift; sourceTree = "<group>"; };
+		F52D93382BAE2EAA00E5CBBB /* GrinderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrinderType.swift; sourceTree = "<group>"; };
+		F52D933A2BAE2F8500E5CBBB /* Brewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewer.swift; sourceTree = "<group>"; };
+		F52D933C2BAE58F800E5CBBB /* CoffeeBrewerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBrewerType.swift; sourceTree = "<group>"; };
+		F52D933E2BAE59B300E5CBBB /* Brew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brew.swift; sourceTree = "<group>"; };
+		F52D93402BAFD79900E5CBBB /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		F52D93442BAFD93200E5CBBB /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		F52D934C2BB0F33700E5CBBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5E74B7B2BE7DE8300A27285 /* GroupBoxStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxStyles.swift; sourceTree = "<group>"; };
+		F5E74B7F2BE81A5400A27285 /* CreateBrewForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBrewForm.swift; sourceTree = "<group>"; };
+		F5E74B812BE81CE300A27285 /* CreateBrewerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBrewerForm.swift; sourceTree = "<group>"; };
+		F5E74B832BE8B44900A27285 /* CreateGrinderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGrinderForm.swift; sourceTree = "<group>"; };
+		F5E74B852BE8B76000A27285 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +136,14 @@
 		F52D92F32BABE49C00E5CBBB /* Coffee companion */ = {
 			isa = PBXGroup;
 			children = (
+				F5E74B7D2BE81A1F00A27285 /* forms */,
+				F5E74B7A2BE7DE6700A27285 /* styles */,
+				F52D934B2BB0EDB600E5CBBB /* views */,
+				F52D93462BAFE02F00E5CBBB /* components */,
+				F52D93252BACC0A300E5CBBB /* enums */,
+				F52D93222BABE4CF00E5CBBB /* models */,
 				F52D92F42BABE49C00E5CBBB /* Coffee_companionApp.swift */,
 				F52D92F62BABE49C00E5CBBB /* ContentView.swift */,
-				F52D92F82BABE49C00E5CBBB /* Item.swift */,
 				F52D92FA2BABE49E00E5CBBB /* Assets.xcassets */,
 				F52D92FF2BABE49E00E5CBBB /* Coffee_companion.entitlements */,
 				F52D93002BABE49E00E5CBBB /* Info.plist */,
@@ -132,6 +175,68 @@
 				F52D93152BABE49E00E5CBBB /* Coffee_companionUITestsLaunchTests.swift */,
 			);
 			path = "Coffee companionUITests";
+			sourceTree = "<group>";
+		};
+		F52D93222BABE4CF00E5CBBB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F52D93232BABE4FC00E5CBBB /* CoffeeBeans.swift */,
+				F52D93362BAE2E5B00E5CBBB /* Grinder.swift */,
+				F52D933A2BAE2F8500E5CBBB /* Brewer.swift */,
+				F52D933E2BAE59B300E5CBBB /* Brew.swift */,
+				F52D93402BAFD79900E5CBBB /* Step.swift */,
+				F52D93442BAFD93200E5CBBB /* Folder.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F52D93252BACC0A300E5CBBB /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				F52D93262BACF9F400E5CBBB /* ProcessingMethod.swift */,
+				F52D93282BACFA1300E5CBBB /* CoffeeProducingCountry.swift */,
+				F52D932A2BACFA8600E5CBBB /* RoastLevel.swift */,
+				F52D932C2BACFAC500E5CBBB /* AltitudeRange.swift */,
+				F52D93302BAD042E00E5CBBB /* FlavorCategory.swift */,
+				F52D93342BAD507B00E5CBBB /* CoffeeProductingRegion.swift */,
+				F52D93382BAE2EAA00E5CBBB /* GrinderType.swift */,
+				F52D933C2BAE58F800E5CBBB /* CoffeeBrewerType.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		F52D93462BAFE02F00E5CBBB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F5E74B852BE8B76000A27285 /* LargeButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F52D934B2BB0EDB600E5CBBB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F52D934C2BB0F33700E5CBBB /* HomeView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F5E74B7A2BE7DE6700A27285 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				F5E74B7B2BE7DE8300A27285 /* GroupBoxStyles.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		F5E74B7D2BE81A1F00A27285 /* forms */ = {
+			isa = PBXGroup;
+			children = (
+				F5E74B7F2BE81A5400A27285 /* CreateBrewForm.swift */,
+				F5E74B812BE81CE300A27285 /* CreateBrewerForm.swift */,
+				F5E74B832BE8B44900A27285 /* CreateGrinderForm.swift */,
+			);
+			path = forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +369,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52D93452BAFD93200E5CBBB /* Folder.swift in Sources */,
+				F5E74B862BE8B76000A27285 /* LargeButton.swift in Sources */,
+				F52D933D2BAE58F800E5CBBB /* CoffeeBrewerType.swift in Sources */,
+				F5E74B802BE81A5400A27285 /* CreateBrewForm.swift in Sources */,
+				F52D93352BAD507B00E5CBBB /* CoffeeProductingRegion.swift in Sources */,
+				F5E74B842BE8B44900A27285 /* CreateGrinderForm.swift in Sources */,
+				F52D93412BAFD79900E5CBBB /* Step.swift in Sources */,
 				F52D92F72BABE49C00E5CBBB /* ContentView.swift in Sources */,
-				F52D92F92BABE49C00E5CBBB /* Item.swift in Sources */,
+				F52D93292BACFA1300E5CBBB /* CoffeeProducingCountry.swift in Sources */,
+				F52D932D2BACFAC500E5CBBB /* AltitudeRange.swift in Sources */,
+				F5E74B7C2BE7DE8300A27285 /* GroupBoxStyles.swift in Sources */,
+				F52D933F2BAE59B300E5CBBB /* Brew.swift in Sources */,
+				F52D934D2BB0F33700E5CBBB /* HomeView.swift in Sources */,
+				F52D93242BABE4FC00E5CBBB /* CoffeeBeans.swift in Sources */,
+				F5E74B822BE81CE300A27285 /* CreateBrewerForm.swift in Sources */,
+				F52D93372BAE2E5B00E5CBBB /* Grinder.swift in Sources */,
+				F52D93312BAD042E00E5CBBB /* FlavorCategory.swift in Sources */,
 				F52D92F52BABE49C00E5CBBB /* Coffee_companionApp.swift in Sources */,
+				F52D93392BAE2EAA00E5CBBB /* GrinderType.swift in Sources */,
+				F52D932B2BACFA8600E5CBBB /* RoastLevel.swift in Sources */,
+				F52D933B2BAE2F8500E5CBBB /* Brewer.swift in Sources */,
+				F52D93272BACF9F400E5CBBB /* ProcessingMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
